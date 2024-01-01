@@ -1,2 +1,2 @@
 # Recyclarr-config
-Recycler configuration
+Recyclarr configuration
