@@ -3,8 +3,6 @@ sonarr:
     base_url: !secret sonarr_url
     api_key: !secret sonarr_apikey
 
-    # replace_existing_custom_formats: true
-
     include:
       - template: sonarr-quality-definition-series
       - template: sonarr-v4-quality-profile-web-2160p
@@ -145,6 +143,7 @@ sonarr:
           - name: DVD
 
     delete_old_custom_formats: true
+    # replace_existing_custom_formats: true
 
     custom_formats:
       - trash_ids:
