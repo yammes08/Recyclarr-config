@@ -191,6 +191,8 @@ sonarr:
           - c2216b7b8aa545dc1ce8388c618f8d57 # HD Bluray Tier 02
         quality_profiles:
           - name: Bluray 2160p
+          - name: WEB-2160p
+          - name: WEB-1080p
 
       - trash_ids:
           # Unwanted
