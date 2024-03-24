@@ -7,6 +7,7 @@ These are the custom formats referenced in the `except` section of the templates
 - `!Flights De-Tier`: Movies: -11650, SQP-2: -11900, SQP-3: -11900
 - `!hallowed`: Movies: 12365, SQP-2: 12100
 - `!hallowed AAC`: Movies: 125, SQP-2: 750
+- `!HEVC HDR`: 5000
 
 ## Sonarr
 ### Scores
