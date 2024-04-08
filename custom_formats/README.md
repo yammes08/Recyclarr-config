@@ -7,6 +7,7 @@ These are the custom formats referenced in the `except` section of the templates
 - `!Flights De-Tier`: -11650
 - `!hallowed`: Movies: 12115, SQP-2: 11600
 - `!hallowed AAC`: Movies: 125, SQP-2: 1750
+- `!HEVC HDR`: 5000
 - `!Remux`: Movies: 0, SQP-2: 250, SQP-3: 250
 - `!Bluray`: Movies: 250, SQP-2: 500
 - `!WEB`: Movies: 600, SQP-2: 0, SQP-3: 0
