@@ -4,9 +4,12 @@ These are the custom formats referenced in the `except` section of the templates
 ## Radarr
 ### Scores
 - `!Bluray 1080p x265`: -40000
-- `!Flights De-Tier`: Movies: -11650, SQP-2: -11900, SQP-3: -11900
-- `!hallowed`: Movies: 12365, SQP-2: 12100
-- `!hallowed AAC`: Movies: 125, SQP-2: 750
+- `!Flights De-Tier`: -11650
+- `!hallowed`: Movies: 12115, SQP-2: 11600
+- `!hallowed AAC`: Movies: 125, SQP-2: 1750
+- `!Remux`: Movies: 0, SQP-2: 250, SQP-3: 250
+- `!Bluray`: Movies: 250, SQP-2: 500
+- `!WEB`: Movies: 600, SQP-2: 0, SQP-3: 0
 
 ## Sonarr
 ### Scores

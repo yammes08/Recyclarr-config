@@ -16,6 +16,9 @@ radarr:
             - "!hallowed AAC"
             - "!Bluray 1080p x265"
             - "!Flights De-tier"
+            - "!Remux"
+            - "!Bluray"
+            - "!WEB"
         upgrade:
           allowed: true
           until_quality: Remux|Bluray|WEB|1080p-2160p
@@ -56,6 +59,9 @@ radarr:
             - "!hallowed AAC"
             - "!Bluray 1080p x265"
             - "!Flights De-tier"
+            - "!Remux"
+            - "!Bluray"
+            - "!WEB"
         upgrade:
           allowed: true
           until_quality: WEB|Remux|Bluray|2160p
@@ -94,6 +100,9 @@ radarr:
             - "!HEVC HDR"
             - "!Bluray 1080p x265"
             - "!Flights De-tier"
+            - "!Remux"
+            - "!Bluray"
+            - "!WEB"
         upgrade:
           allowed: true
           until_quality: WEB|Remux|2160p
@@ -219,35 +228,35 @@ radarr:
       - trash_ids:
           - 3a3ff47579026e76d6504ebea39390de  # Remux Tier 01
         quality_profiles:
-          - { name: SQP-2, score: 11950 }
-          - { name: SQP-3, score: 11950 }
+          - { name: SQP-2, score: 11700 }
+          - { name: SQP-3, score: 11700 }
 
       - trash_ids:
           - 9f98181fe5a3fbeb0cc29340da2a468a  # Remux Tier 02
         quality_profiles:
-          - { name: SQP-2, score: 11900 }
-          - { name: SQP-3, score: 11900 }
+          - { name: SQP-2, score: 11650 }
+          - { name: SQP-3, score: 11650 }
 
       - trash_ids:
           - 8baaf0b3142bf4d94c42a724f034e27a  # Remux Tier 03
         quality_profiles:
-          - { name: SQP-2, score: 11850 }
-          - { name: SQP-3, score: 11850 }
+          - { name: SQP-2, score: 11600 }
+          - { name: SQP-3, score: 11600 }
 
       - trash_ids:
           - 4d74ac4c4db0b64bff6ce0cffef99bf0  # UHD Bluray Tier 01
         quality_profiles:
-          - { name: SQP-2, score: 12300 }
+          - { name: SQP-2, score: 11800 }
 
       - trash_ids:
           - a58f517a70193f8e578056642178419d  # UHD Bluray Tier 02
         quality_profiles:
-          - { name: SQP-2, score: 12200 }
+          - { name: SQP-2, score: 11700 }
 
       - trash_ids:
           - e71939fae578037e7aed3ee219bbe7c1  # UHD Bluray Tier 03
         quality_profiles:
-          - { name: SQP-2, score: 12100 }
+          - { name: SQP-2, score: 11600 }
 
       - trash_ids:
           - c20f169ef63c5f40c2def54abaf4438e  # WEB Tier 01
@@ -412,35 +421,35 @@ radarr:
       - trash_ids:
           - c20f169ef63c5f40c2def54abaf4438e  # WEB Tier 01
         quality_profiles:
-          - { name: Movies, score: 12350 }
+          - { name: Movies, score: 11750 }
 
       - trash_ids:
           - 403816d65392c79236dcb6dd591aeda4  # WEB Tier 02
         quality_profiles:
-          - { name: Movies, score: 12250 }
+          - { name: Movies, score: 11650 }
 
       - trash_ids:
           - af94e0fe497124d1f9ce732069ec8c3b  # WEB Tier 03
         quality_profiles:
-          - { name: Movies, score: 12200 }
+          - { name: Movies, score: 11600 }
 
       - trash_ids:
           - 4d74ac4c4db0b64bff6ce0cffef99bf0  # UHD Bluray Tier 01
           - ed27ebfef2f323e964fb1f61391bcb35  # HD Bluray Tier 01
         quality_profiles:
-          - { name: Movies, score: 11950 }
+          - { name: Movies, score: 11700 }
 
       - trash_ids:
           - a58f517a70193f8e578056642178419d  # UHD Bluray Tier 02
           - c20c8647f2746a1f4c4262b0fbbeeeae  # HD Bluray Tier 02
         quality_profiles:
-          - { name: Movies, score: 11900 }
+          - { name: Movies, score: 11650 }
 
       - trash_ids:
           - e71939fae578037e7aed3ee219bbe7c1  # UHD Bluray Tier 03
           - 5608c71bcebba0a5e666223bae8c9227  # HD Bluray Tier 03
         quality_profiles:
-          - { name: Movies, score: 11850 }
+          - { name: Movies, score: 11600 }
 
       - trash_ids:
           - 3a3ff47579026e76d6504ebea39390de  # Remux Tier 01
